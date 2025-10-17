@@ -1,55 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Service Notice - AT&T Network</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
-            color: #333;
-            margin: 0;
-            padding: 20px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-        }
-        .notice-box {
-            background-color: #fff;
-            border: 1px solid #ddd;
-            padding: 30px;
-            border-radius: 8px;
-            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-            max-width: 500px;
-            text-align: center;
-        }
-        h1 {
-            color: #cc0000; /* A color often associated with alerts/errors */
-            font-size: 24px;
-            margin-bottom: 20px;
-        }
-        p {
-            font-size: 16px;
-            line-height: 1.5;
-        }
-        strong {
-            font-weight: 700;
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Network Service Notice</title>
+  <style>
+    body {
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f9fafb;
+      color: #333;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      padding: 20px;
+    }
+
+    .notice-box {
+      background-color: #fff;
+      border: 1px solid #e5e7eb;
+      padding: 40px;
+      border-radius: 12px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+      max-width: 520px;
+      width: 100%;
+      text-align: center;
+    }
+
+    .logo {
+      display: inline-block;
+      margin-bottom: 20px;
+    }
+
+    .logo img {
+      max-height: 50px;
+    }
+
+    h1 {
+      font-size: 22px;
+      color: #d32f2f;
+      margin-bottom: 15px;
+      letter-spacing: 0.5px;
+    }
+
+    p {
+      font-size: 15px;
+      line-height: 1.6;
+      margin-bottom: 10px;
+    }
+
+    .sub-text {
+      font-size: 13px;
+      color: #6b7280;
+      margin-top: 20px;
+    }
+
+    .divider {
+      height: 1px;
+      background-color: #e5e7eb;
+      margin: 20px 0;
+    }
+
+    .button {
+      display: inline-block;
+      background-color: #2563eb;
+      color: #fff;
+      padding: 10px 20px;
+      border-radius: 6px;
+      text-decoration: none;
+      font-size: 14px;
+      transition: background-color 0.2s ease;
+    }
+
+    .button:hover {
+      background-color: #1e40af;
+    }
+  </style>
 </head>
 <body>
-    <div class="notice-box">
-        <h1>ACCESS BLOCKED - IMPORTANT NOTICE</h1>
-        <p>
-            <strong>
-                Sorry, but new laws in the US have forced us to block all form of porn with the AT&T network.
-            </strong>
-        </p>
-        <p style="font-size: 12px; color: #777; margin-top: 20px;">
-            This restriction is a result of mandated compliance with recent legislative changes.
-        </p>
+  <div class="notice-box">
+    <div class="logo">
+      <!-- Replace with your real logo URL if needed -->
+      <img src="https://upload.wikimedia.org/wikipedia/commons/2/29/AT%26T_logo_2016.svg" alt="AT&T Logo"/>
     </div>
+    <h1>Service Access Restricted</h1>
+    <p>
+      Access to this content has been restricted on your network. This may be due to
+      account settings, parental controls, or regional service policies.
+    </p>
+    <div class="divider"></div>
+    <p class="sub-text">
+      If you believe this is an error or need more information, please contact customer support.
+    </p>
+    <a href="#" class="button">Contact Support</a>
+  </div>
 </body>
 </html>
